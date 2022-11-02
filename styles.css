@@ -1,0 +1,147 @@
+/* 
+
+Basis for the code: 
+How to create CSS Art (All the steps + example) - Cactus
+https://www.youtube.com/watch?v=pGaw-eb-nPM
+
+*/
+
+/* 
+
+Flexbox:
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 
+https://developer.mozilla.org/
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.canvas {
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    width: 100%;
+    height: 100vh;
+}
+
+.base {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40vmin;
+    height: 80vmin;
+    border-radius: 0%;
+    background-color: rgb(0, 0, 0);
+    border: solid;
+    border-color:rgb(247, 190, 137);
+    border-width: thick;
+}
+
+.buttons {
+    position: relative;
+    display: flex;
+    row-gap: 1vmin;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vmin;
+    height: 40vmin;
+    border-radius: 0%;
+    background-color: rgb(0, 0, 0);
+    border: solid;
+    border-color:rgb(247, 190, 137);
+    border-width: thick;
+}
+
+.button-1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17vmin;
+    height: 18vmin;
+    border-radius: 0%;
+    background-color: rgb(0, 0, 0);
+    border: solid;
+    border-color:rgb(247, 190, 137);
+    border-width: thick;
+    }
+
+.button-1:hover {
+    background-color: rgba(247, 190, 137, 0.5);
+}
+
+.button-1:active {
+    background-color: rgba(247, 190, 137, 1);
+}
+
+.button-2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17vmin;
+    height: 18vmin;
+    border-radius: 0%;
+    background-color: rgb(0, 0, 0);
+    border: solid;
+    border-color:rgb(247, 190, 137);
+    border-width: thick;
+}
+
+.screw-1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 5vmin;
+    height: 5vmin;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    border: solid;
+    border-color:rgb(247, 190, 137);
+    border-width: thick;
+}
+
+.screw-2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 5vmin;
+    height: 5vmin;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    border: solid;
+    border-color:rgb(247, 190, 137);
+    border-width: thick;
+}
+
+.groove {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 5vmin;
+    height: 0vmin;
+    rotate: 45deg;
+    border-radius: 0%;
+    background-color: none;
+    border-bottom: solid;
+    border-color:rgb(247, 190, 137);
+    border-width: thick;
+}
+
+
+
